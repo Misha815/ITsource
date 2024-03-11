@@ -1,0 +1,114 @@
+.section-choose-us {
+    .section-choose__title {
+        h2 {
+            margin-left: 150px;
+            margin-right: 150px;
+            font-size: 60px;
+            margin-top: 200px;
+            margin-bottom: 100px;
+        }
+
+        p {
+            margin-left: 150px;
+            margin-right: 150px;
+            width: 920px;
+            height: 108px;
+            font-size: 24px;
+            line-height: 40px;
+        }
+    }
+
+    .section-choose__container {
+        margin-top: 150px;
+        display: flex;
+        justify-content: space-around;
+
+
+        .slider-selector {
+
+            position: relative;
+
+            .slider {
+                display: flex;
+                justify-content: space-around;
+                flex-direction: row;
+
+                .controls {
+                    justify-content: space-around;
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    border-left: 2px solid #2f353f46;
+
+                    .controls__btn {
+                        color: #2f353f46;
+                        font-size: 32px;
+                    }
+
+                    .active {
+                        color: #2E2BD0;
+                    }
+
+                    button {
+                        padding: 10px;
+                        margin: 10px;
+                    }
+                }
+
+
+
+                .slides {
+
+                    transition: transform 0.3s ease-in-out;
+                    display: flex;
+                    width: 1295px;
+                    height: 459px;
+                    overflow: hidden;
+
+                    .slide {
+                        flex: 0 0 100%;
+                        border-radius: 70px;
+                        border: 1px solid #95989d46;
+                        height: 459px;
+                        font-size: 30px;
+
+                        h6 {
+                            color: #2E2BD0;
+                            font-size: 40px;
+                            margin: 50px;
+
+                        }
+
+                        p {
+                            width: 1295px;
+                            font-size: 30px;
+                            margin: 30px auto;
+                        }
+                    }
+
+                    .active {
+                        transform: translateX(0);
+                    }
+
+                    img {
+                        max-width: 100%;
+                        height: auto;
+                    }
+
+                    h6 {
+
+                        max-width: 1178.96px;
+                    }
+
+                    p {
+
+                        max-width: 1178.96px;
+                        max-height: 359px;
+                    }
+
+
+                }
+            }
+        }
+    }
+}

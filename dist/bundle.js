@@ -1,0 +1,1 @@
+(()=>{"use strict";var e=document.querySelectorAll(".controls__btn");e.forEach((function(t){t.addEventListener("mousedown",(function(){(e.disabled=!0)?t.classList.add("active"):(e.disabled=!1)&&t.classList.remove("active")}))}))})();

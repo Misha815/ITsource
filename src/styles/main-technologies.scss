@@ -1,0 +1,37 @@
+.section-technologies {
+    .section-technologies__title {
+        h2 {
+            margin-left: 150px;
+            margin-right: 150px;
+            font-size: 60px;
+
+            margin-top: 200px;
+            margin-bottom: 100px;
+
+        }
+    }
+
+    .section-technologies__container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+
+
+        .section-technologies__container--item {
+            width: 506px;
+            height: 460px;
+            margin: 39px;
+
+            h4 {
+                font-size: 40px;
+                padding-bottom: 40px;
+                border-bottom: 2px solid gray;
+            }
+
+            p {
+                font-size: 24px;
+                color: #2f353fbd;
+            }
+        }
+    }
+}

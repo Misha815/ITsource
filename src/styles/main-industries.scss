@@ -1,0 +1,168 @@
+.section-industries {
+    margin-top: 250px;
+
+    .section-industries__container {
+        color: #fff;
+        width: 1860px;
+        height: 1004px;
+        border-radius: 70px;
+        margin: 0 auto;
+        background: rgb(46, 43, 208);
+        background: linear-gradient(208deg, rgba(46, 43, 208, 1) 0%, rgba(120, 118, 242, 1) 100%);
+
+        .section-industries__up {
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: space-evenly;
+            margin-bottom: 200px;
+            padding-top: 50px;
+
+            .section-left {
+                width: 700px;
+                height: 260px;
+
+                h4 {
+                    font-size: 90px;
+                    margin: 0 auto;
+                    padding-top: 100px;
+                }
+            }
+
+            .section-right {
+                width: 700px;
+                height: 287px;
+
+                p {
+                    line-height: 32px;
+
+                    word-spacing: 5px;
+                    font-size: 24px;
+                    color: #ffffffbb;
+                    padding-top: 133px;
+                    margin: 0 auto;
+                    padding-bottom: 49px;
+                }
+
+                a {
+                    color: #fff;
+                    transition: 0.3s;
+
+                    &:hover {
+                        transition: 0.3s;
+                        background-color: #fff;
+                        color: black;
+                    }
+
+                    &:active {
+                        transition: 0.3s;
+                        background: none;
+                        color: #fff;
+                    }
+                }
+
+                .download {
+                    display: flex;
+                    text-align: center;
+                    align-items: center;
+                    justify-content: center;
+                    width: 350px;
+                    height: 58px;
+                    border-radius: 10px;
+                    background-color: none;
+                    border: 1px solid #fff;
+                    font-size: 20px
+                }
+            }
+        }
+
+        .section-form {
+            form {
+                display: grid;
+                grid-template-columns: auto auto;
+                justify-content: space-evenly;
+
+                .left-form {
+                    width: 700px;
+                    height: 394px;
+
+
+                    button {
+                        transition: 1s;
+
+                        &:hover {
+                            transition: 1s;
+                            transform: scale(110%);
+                        }
+                    }
+
+                    input {
+                        all: unset;
+                        width: 700px;
+                        border-bottom: 1px solid #ffffff59;
+                        height: 61px;
+                        ;
+                        height: 61px;
+                        font-size: 24px;
+
+                        margin-bottom: 30px;
+
+                        &::placeholder {
+                            color: #ffffff59;
+                            font-size: 24px;
+                        }
+
+                    }
+
+                    button {
+                        display: flex;
+                        width: 205px;
+                        height: 58px;
+                        border-radius: 10px;
+                        border: 1px solid #fff;
+                        font-size: 20px;
+                        background-color: #fff;
+                        color: black;
+                        text-align: center;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+
+                .right-form {
+                    width: 700px;
+                    height: 173.5px;
+
+                    .upload-file {
+                        border: none;
+                        padding: 20px;
+                    }
+
+                    .upload-file::-webkit-file-upload-button {
+                        border-radius: 10px;
+                        background: none;
+                        border: 1px solid #ffffff59;
+                        color: #fff;
+                        padding: 10px;
+                        cursor: pointer;
+                    }
+
+
+                    input {
+                        all: unset;
+                        width: 700px;
+                        border-bottom: 1px solid #ffffff59;
+                        height: 61px;
+                        font-size: 24px;
+
+                        &::placeholder {
+                            color: #ffffff59;
+                            font-size: 24px;
+                        }
+
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
