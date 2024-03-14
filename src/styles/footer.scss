@@ -21,7 +21,18 @@
                                 color: #2E2BD0;
                                 text-decoration: underline;
                                 text-underline-offset: 6px;
+                                border-radius: 12px;
 
+                                .social-footer {
+                                    transition: 1s;
+
+                                    &:hover {
+                                        transition: 1s;
+                                        transform: scale(104%);
+                                        background-color: #2e2bd012;
+                                        border-radius: 15px;
+                                    }
+                                }
                             }
                         }
                     }

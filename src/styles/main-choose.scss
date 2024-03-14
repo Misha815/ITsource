@@ -32,26 +32,49 @@
                 display: flex;
                 justify-content: space-around;
                 flex-direction: row;
+                align-items: center;
+
 
                 .controls {
                     justify-content: space-around;
                     position: relative;
                     display: flex;
                     flex-direction: column;
-                    border-left: 2px solid #2f353f46;
 
-                    .controls__btn {
+
+
+                    input[type="radio"] {
+                        display: none;
+                    }
+
+                    input[type="radio"]+label {
+                        display: flex;
+
+                        align-items: center;
+
+                        padding: 5px 15px;
+                        cursor: pointer;
+
+
+
+                        color: #2f353f4d;
+
+                    }
+
+                    input[type="radio"]:checked+label {
+                        color: #2E2BD0;
+                        border-left: 2px solid #2E2BD0;
+                    }
+
+
+
+                    label {
+
+
                         color: #2f353f46;
                         font-size: 32px;
-                    }
-
-                    .active {
-                        color: #2E2BD0;
-                    }
-
-                    button {
-                        padding: 10px;
-                        margin: 10px;
+                        border-left: 2px solid #2f353f46;
+                        height: 120px;
                     }
                 }
 

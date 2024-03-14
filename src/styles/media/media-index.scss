@@ -1,0 +1,59 @@
+@media (max-width:1280px) {
+
+    .button__send-us {
+
+        text-align: center;
+        background: none;
+        min-width: 100px;
+        min-height: 40px;
+        border-radius: 10px;
+        font-size: 10;
+        transition: 1s;
+
+        &:hover {
+
+            background: none;
+            transform: scale(100%);
+            transition: 1s;
+        }
+
+        &::after {
+
+
+
+
+            position: absolute;
+
+
+            margin-left: 1px;
+
+        }
+    }
+}
+
+.estimate-project {
+    a {
+        color: #fff;
+        border: 1px solid #fff;
+        font-size: 20px;
+        border-radius: 100%;
+
+        height: 200px;
+        width: 200px;
+        display: inline-block;
+        display: flex;
+        text-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        transition: 0.8s;
+
+        &:hover {
+            background-color: #2E2BD0;
+            border: 1px solid #2E2BD0;
+            display: flex;
+            transition: 0.8s;
+        }
+    }
+}

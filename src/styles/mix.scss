@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    background-color: rgba(174, 174, 174, 0.13);
+    z-index: 1000;
+}
+
+li {
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+button {
+    all: unset;
+    color: #fff;
+    font-family: monospace;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+.button__send-us {
+    text-align: center;
+    background-color: #2E2BD0;
+    min-width: 254px;
+    min-height: 59px;
+    border-radius: 10px;
+    font-size: 20;
+    transition: 1s;
+
+    &:hover {
+        font-size: 18px;
+        background-color: $main-blue;
+        transform: scale(105%);
+        transition: 1s;
+    }
+
+    &::after {
+        content: url('../images/Button.svg');
+        position: absolute;
+        margin-left: 10px;
+
+    }
+}
+
+.estimate-project {
+    a {
+        color: #fff;
+        border: 1px solid #fff;
+        font-size: 30px;
+        border-radius: 100%;
+        height: 280px;
+        width: 280px;
+        display: inline-block;
+        display: flex;
+        text-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        transition: 0.8s;
+
+        &:hover {
+            background-color: $main-blue;
+            border: 1px solid $main-blue;
+            display: flex;
+            transition: 0.8s;
+        }
+    }
+}
